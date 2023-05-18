@@ -25,9 +25,20 @@ a {
 }
 
 /*Utility Classes*/
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
 .bg-dark {
     background: #333333;
     color: white;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333333;
 }
 
 .text-primary {
@@ -35,7 +46,11 @@ a {
 }
 
 .l-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.m-heading {
+    font-size: 1rem;
 }
 
 .bold {
@@ -50,9 +65,23 @@ a {
     border-radius: 5px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .btn:hover {
     color: orange;
     background: white;
+}
+
+.list {
+    margin: 0.5rem;
+    list-style: none;
+}
+
+.list li {
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
 }
 
 .m-1 {
@@ -77,6 +106,18 @@ a {
 
 .p-3 {
     padding: 3rem;
+}
+
+.py-1 {
+    padding: 1.25rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
 }
 
 #navbar {
@@ -123,3 +164,38 @@ a {
     height: 100%;
     color: white;
 }
+
+#section1 .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#section1 .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#section1 .items .item i {
+    background: orange;
+    padding: 1.25rem;
+    border-radius: 50%;
+}
+
+#section2 {
+    display: flex;
+}
+
+#section2 div {
+    flex: 1;
+}
+
+#section2 .img {
+    background: url("../img/section2.jpg") no-repeat center center/cover;
+}
+
+#section2 .content {
+    text-align: right;
+}
+
+.list
