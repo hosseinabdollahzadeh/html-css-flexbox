@@ -197,5 +197,15 @@ a {
 #section2 .content {
     text-align: right;
 }
-
-.list
+#section3 .items{
+    display: flex;
+}
+#section3 .items div{
+    flex: 1;
+}
+#section3 .items img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
